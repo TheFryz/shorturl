@@ -1,0 +1,1 @@
+rewrite ^/([^/]*)$ /redirect.php?code=$1 last;
